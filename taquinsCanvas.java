@@ -10,10 +10,11 @@ public class taquinsCanvas extends Canvas implements MouseListener {
 	// ATTRIBUTS
 
 	Color couleurFond = Color.white;
-	Color couleurCarre1 = Color.red;
-	Color couleurCarre2 = new Color(225, 206, 154);
-	Color couleurRectangle1 = new Color(174, 74, 52);
-	Color couleurRectangle2 = new Color(175, 167, 123);
+	Color couleurCarre1 = Color.black;
+	Color couleurCarre2 = new Color(50, 158, 187);
+	Color couleurRectangle1 = new Color(251, 60, 111);
+	Color couleurRectangle2 = new Color(255, 209, 6);
+	
 
 	int w = getSize().width;
 	int h = getSize().height;
